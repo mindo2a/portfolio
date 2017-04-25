@@ -1,0 +1,121 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+nav {
+	height: 65px;
+	width: 100%;
+}
+.container-fluid {
+	padding: 0;
+}
+.row {
+	margin: 0;
+}
+#home {
+	width: 100%;
+	height: 100vh;
+	background-image: url('../images/top-bg.jpg');
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	padding-top: 60px; 
+}
+#about {
+	width: 100%;
+	height: 100vh;
+	padding-top: 100px;
+}
+#about img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+#about h2,h3,p {
+	text-align: center;
+}
+#about p {
+	margin: 0 auto;
+	width: 50%;
+	text-align: justify;
+}
+#skills {
+	width: 100%;
+	height: 100vh;
+	padding-top: 100px;
+	text-align: center;
+}
+.skills-icons {
+	padding-top: 50px;
+	width: 50%;
+	margin: auto;
+}
+.icons {
+	width: 100%;
+
+}
+.html {
+  display: inline-block;
+  width: 80px;
+  height: 75px;
+  margin: 1em;
+}
+.html p {
+	font-weight: bold;
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+	height: 75px;
+	width: 100%;
+	background-color: #000;
+}
